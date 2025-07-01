@@ -5,7 +5,7 @@ import SignIn from './pages/SignIn';
 import Customize from './pages/Customize';
 import Customize2 from './pages/Customize2';
 import Home from './pages/Home';
-import { UserDataContext } from './context/userContext';
+import { UserDataContext } from './context/UserContext';
 
 function App() {
   const { userData } = useContext(UserDataContext);
